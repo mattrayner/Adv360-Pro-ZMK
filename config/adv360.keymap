@@ -142,11 +142,11 @@
 
         sys {
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &kp SCROLLLOCK  &trans                                                &trans                     &kp PAUSE_BREAK  &trans                    &trans                    &trans                  &trans                     &bt BT_CLR
-&trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans          &bl BL_TOG                                            &trans                     &trans           &trans                    &trans                    &trans                  &trans                     &trans
-&trans  &trans        &trans        &trans        &trans        &trans          &bl BL_DEC  &trans  &trans            &trans  &trans  &bl BL_INC                 &kp LA(N3)       &kp LS(LA(LC(LG(LEFT))))  &kp LS(LA(LC(LG(DOWN))))  &kp LS(LC(LA(LG(UP))))  &kp LS(LA(LC(LG(RIGHT))))  &trans
-&trans  &kp C_PREV    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &trans                              &trans            &trans                                     &trans           &trans                    &trans                    &trans                  &trans                     &trans
-&trans  &trans        &trans        &trans        &trans                        &to 0       &trans  &bt BT_SEL 0      &trans  &trans  &kp LS(LA(LC(LG(SPACE))))                   &trans                    &trans                    &trans                  &trans                     &trans
+&trans  &trans      &trans        &trans        &trans        &kp SCROLLLOCK  &trans                                                      &trans                     &kp PAUSE_BREAK  &trans                    &trans                    &trans                  &trans                     &bt BT_CLR
+&trans  &trans      &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans          &bl BL_TOG                                                  &trans                     &trans           &trans                    &trans                    &trans                  &trans                     &trans
+&trans  &trans      &trans        &trans        &trans        &trans          &bl BL_DEC  &trans  &trans            &trans        &trans  &bl BL_INC                 &kp LA(N3)       &kp LS(LA(LC(LG(LEFT))))  &kp LS(LA(LC(LG(DOWN))))  &kp LS(LC(LA(LG(UP))))  &kp LS(LA(LC(LG(RIGHT))))  &trans
+&trans  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &trans                              &trans            &trans                                           &trans           &trans                    &trans                    &trans                  &trans                     &trans
+&trans  &trans      &trans        &trans        &trans                        &to 0       &trans  &bt BT_SEL 0      &bt BT_SEL 1  &trans  &kp LS(LA(LC(LG(SPACE))))                   &trans                    &trans                    &trans                  &trans                     &trans
             >;
 
             label = "sys";
